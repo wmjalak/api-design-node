@@ -9,18 +9,22 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "10.12.0"
+  },
   "dependencies": {
-    "bcrypt": "^3.0.2",
+    "bcrypt": "git+https://github.com/kelektiv/node.bcrypt.js.git#master",
     "body-parser": "^1.18.3",
     "colors": "^1.1.2",
     "cors": "^2.7.1",
-    "express": "^4.13.1",
-    "express-jwt": "^3.0.1",
-    "jsonwebtoken": "^5.0.4",
+    "express": "^4.16.1",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^8.1.0",
     "lodash": "^4.17.11",
     "method-override": "^2.3.4",
     "mongoose": "^5.3.7",
-    "morgan": "^1.6.1"
+    "morgan": "^1.6.1",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
